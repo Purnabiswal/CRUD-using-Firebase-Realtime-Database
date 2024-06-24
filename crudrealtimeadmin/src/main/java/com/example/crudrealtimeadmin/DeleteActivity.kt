@@ -29,6 +29,8 @@ class DeleteActivity : AppCompatActivity() {
 
     }
 
+    //change 1
+
 
     private fun deleteData(vehicleNumber:String){
         databaseReference=FirebaseDatabase.getInstance().getReference("Vehicle Information")
